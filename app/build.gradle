@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "gdky005.archive.pro"
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+//    通用工具类
+    compile 'cn.trinea.android.common:trinea-android-common:4.2.15'
+//    fresco
+    compile 'com.facebook.fresco:fresco:0.7.0'
+//    Android EventBus
+    compile 'org.simple:androideventbus:1.0.5'
+//    比较 个性化的 Log 功能
+    compile 'com.orhanobut:logger:1.11'
+//    fastjson
+    compile 'com.alibaba:fastjson:1.2.7'
+//    友盟统计
+    compile 'com.umeng.analytics:umeng-analytics:5.4.1'
+//    动画兼容库到2.2+
+    compile 'com.nineoldandroids:library:2.4.0'
+//    android-async-http 网络请求
+    compile 'com.loopj.android:android-async-http:1.4.9'
+//    顶部滑动控件
+    compile 'cn.lightsky.infiniteindicator:library:1.0.3'
+}
