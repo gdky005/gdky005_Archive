@@ -47,4 +47,9 @@ dependencies {
     compile 'com.loopj.android:android-async-http:1.4.9'
 //    顶部滑动控件
     compile 'cn.lightsky.infiniteindicator:library:1.0.3'
+//    AndroidBucket Android开发常用整理（不断扩充中）
+//    包含各种工具类、线程池、日志、自定义的控件、程序崩溃捕捉处理、默认的Application配置、常用的Adapter等
+    compile 'com.github.wangjiegulu:AndroidBucket:1.0.4'
+//    Android 4.4 上实现透明导航栏和状态栏 Translucent system bar，侵入式
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
 }
