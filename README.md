@@ -14,3 +14,5 @@ https://github.com/wangjiegulu/AndroidBucket
 第二种方式：继承*.TranslucentDecor 主题中的一种。
 第三种在activity中设置FLAG_TRANSLUCENT_NAVIGATION 和 FLAG_TRANSLUCENT_STATUS。
 如果你没有设置activity为translucen模式或者你的api版本低于19，那么系统状态栏和导航栏将不会有变化，但也不会报错。该library可以在api10 之上安全使用。
+
+#AndFix is a library that offer hot-fix for Android App，热点修复

@@ -52,4 +52,6 @@ dependencies {
     compile 'com.github.wangjiegulu:AndroidBucket:1.0.4'
 //    Android 4.4 上实现透明导航栏和状态栏 Translucent system bar，侵入式
     compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+//    AndFix is a library that offer hot-fix for Android App，热点修复
+    compile 'com.alipay.euler:andfix:0.3.1@aar'
 }
