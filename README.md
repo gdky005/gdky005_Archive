@@ -16,3 +16,5 @@ https://github.com/wangjiegulu/AndroidBucket
 如果你没有设置activity为translucen模式或者你的api版本低于19，那么系统状态栏和导航栏将不会有变化，但也不会报错。该library可以在api10 之上安全使用。
 
 #AndFix is a library that offer hot-fix for Android App，热点修复
+
+###添加几个常见的shape:1.圆形；2.同心圆；3.矩形；4.矩形底部圆角；
